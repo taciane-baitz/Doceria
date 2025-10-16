@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Doceria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img class="logo" src="2fe48527905a2bb5d03543bfdc1cdceb.jpg">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#doces">Doces</a></li>
+                    <li><a href="#carrinho">Carrinho</a></li>
+
+            </nav>
+        </div>
+    </header>
+
+    <div id="home" class="home">
+        <section class="banner">
+            <div class="banner-texto">
+                <h1 class="texto"> Doces Encanto</h1>
+                <a href="#doces"><button class="botao">Seus cokies te esperam</button></a>
+            </div>
+        </section>
+    </div>
+    <div id="doces" class="doces">
+        <div class="doce1">
+        </div>
+        <div class="doces2">
+            <h1 class="texto3">Doces</h1>
+            <p class="texto4">Melhor que terapia? Só mais um cookie </p>
+
+            <div class="caixas">
+                <div class="caixa">
+                    <img class="icon" src="b2c22a6ee84eb251ae5b0d82b6e82221.jpg">
+                    <p class="textoDiferente">Beijo Doce</p>
+                    <label> R$ 10,00 </label>
+                    <input class="qtd" type="number" name="" id="valor1">
+                </div>
+                <div class="caixa">
+                    <img class="icon" src="0728c7be6490c92956e11110fafb3c15.jpg">
+                    <p class="textoDiferente">Bowl Encanto </p>
+                    <label> R$ 12,00 </label>
+                    <input class="qtd" type="number" name="" id="valor2">
+                </div>
+                <div class="caixa">
+                    <img class="icon" src="0490426c3c8293938a6e971f2efad569.jpg">
+                    <p class="textoDiferente">Amor Perfeito</p>
+                    <label> R$ 15,00 </label>
+                    <input class="qtd" type="number" name="" id="valor3">
+                </div>
+                <div class="caixa">
+                    <img class="icon" src="16ac2862de0e6a8bb54a2f9ecb51f3e7.jpg">
+                    <p class="textoDiferente">Flor de Açúcar</p>
+                    <label> R$ 16,00 </label>
+                    <input class="qtd" type="number" name="" id="valor4">
+                </div>
+                <button class="botao1" id="carrinho_btn">Seus cokies estão no carrinho</button>
+            </div>
+        </div>
+    </div>
+    <div id="carrinho" class="carrinho">
+        <div class="vendas">
+            <h1 class="texto5">Quantidade total: </h1>
+            <h1 id="quantidade" class="texto5"></h1>
+        </div>
+        <div class="vendas">
+            <h1 class="texto5">Total em Reais: </h1>
+            <h1 id="preco" class="texto5"></h1>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
